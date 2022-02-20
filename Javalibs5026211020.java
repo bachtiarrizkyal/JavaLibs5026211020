@@ -23,7 +23,7 @@ import javax.swing.*;
             JOptionPane.showMessageDialog(null, "Ohh, kamu umur "+age+".");
         }
         
-        //Kuliah
+        //Kegiatan
         String Activity = JOptionPane.showInputDialog("Terus Btw, kesibukanmu sekarang ngapain? |1 = Kuliah 2 = Kerja|");
         int ActivityConvert=Integer.parseInt(Activity);
         if (ActivityConvert == 1) {
